@@ -1,6 +1,4 @@
 {% extends 'layout.html' %}
 {% block content %}
-    {% macro show_job %}
-        {{ job }}
-    {% endmacro %}
+{{ show_job(job)}
 {% endblock %}
